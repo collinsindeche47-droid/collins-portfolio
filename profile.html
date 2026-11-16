@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Collins Indeche | Profile</title>
+
+    <meta name="description" content="Personal profile website of Collins Indeche">
+
+    <link rel="icon" href="images/favicon.jpeg">
+
+    <!-- Connecting CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- PART 1: HEADER AND NAVIGATION -->
+
+    <header>
+
+        <nav>
+
+            <a href="#home" class="logo">
+                <img src="images/logo.jpeg" alt="Collins logo" width="50" height="50">
+                <span>Collins.Dev</span>
+            </a>
+
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button type="button">Let's Talk</button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- PART 2: MAIN CONTENT -->
+
+    <main>
+
+        <!-- HOME SECTION -->
+
+        <section id="home">
+
+            <p class="welcome">WELCOME TO MY PROFILE</p>
+
+            <h1>Hi, I'm Collins Indeche</h1>
+
+            <h2>A Computer Science Student</h2>
+
+            <p>
+                I am an aspiring <strong>Software Developer</strong>,
+                passionate about technology and always learning.
+                <br>
+                I was once a <del>beginner with no experience</del>
+                <em>but now I am learning and building new things.</em>
+            </p>
+
+            <div class="my-info">
+                <span><i class="fa-solid fa-location-dot"></i> Kenya</span>
+                <span><i class="fa-solid fa-code"></i> Learning to Code</span>
+            </div>
+
+            <hr>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <div class="about-content">
+
+                <!-- My picture -->
+
+                <figure>
+                    <img src="images/collins.jpeg"
+                    alt="Photo of Collins Indeche"
+                    width="160" height="160">
+
+                    <figcaption>Collins Indeche - Collins.Dev</figcaption>
+                </figure>
+
+
+                <!-- My story -->
+
+                <article>
+
+                    <h3>Who Am I?</h3>
+
+                    <p>
+                        My name is Collins Indeche, popularly known
+                        as Collins.Dev. I am a first-year Computer
+                        Science student at Kirinyaga University. With a strong interest in
+                        programming and technology.
+                    </p>
+
+                    <p>
+                        I enjoy learning how computers work and how
+                        different technologies can solve real-life
+                        problems. My dream is to become a skilled
+                        software developer and cybersecurity analyst
+                        I believe in learning every day, practising
+                        and improving my skills.
+                    </p>
+
+                </article>
+
+
+                <!-- Quick facts -->
+
+                <aside>
+
+                    <h3>Quick Facts</h3>
+
+                    <ul>
+                        <li>Name: Collins Indeche</li>
+                        <li>Nickname: Collins.Dev</li>
+                        <li>Field: Computer Science</li>
+                        <li>Interest: Technology</li>
+                    </ul>
+
+                </aside>
+
+            </div>
+
+
+            <!-- Skills and Goals -->
+
+            <div class="skills-goals">
+
+                <div>
+                    <h3>My Skills</h3>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C Programming</li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3>My Goals</h3>
+
+                    <ol>
+                        <li>Become a good software developer.</li>
+                        <li>Become a Professional Cybersecurity Analyst.</li>
+                        <li>Learn Artificial intelligence.</li>
+                    </ol>
+                </div>
+
+            </div>
+
+            <p class="learning-link">
+                I also enjoy learning from
+                <a href="https://www.w3schools.com/"
+                target="_blank">W3Schools</a>.
+            </p>
+
+        </section>
+
+
+        <!-- PART 3: MY PROJECTS -->
+
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <p>Some of the projects I have worked on or plan to build.</p>
+
+            <table>
+
+                <caption>My Programming Projects</caption>
+
+                <thead>
+
+                    <tr>
+                        <th>ID</th>
+                        <th>Project</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>101</td>
+                        <td><a href="#projects">Personal Website</a></td>
+                        <td>Completed</td>
+                        <td><i class="fa-solid fa-check"></i></td>
+                    </tr>
+
+                    <tr>
+                        <td>102</td>
+                        <td><a href="#projects">C Calculator</a></td>
+                        <td>In Progress</td>
+                        <td><i class="fa-solid fa-spinner"></i></td>
+                    </tr>
+
+                    <tr>
+                        <td>103</td>
+                        <td><a href="#projects">Point of Sale System</a></td>
+                        <td>Planned</td>
+                        <td><i class="fa-solid fa-clock"></i></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- PART 4: CONTACT FORM -->
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                Do you have a question, idea or project?
+                Feel free to get in touch with me.
+            </p>
+
+            <form action="#" method="post">
+
+                <!-- Full name -->
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname"
+                name="fullname" placeholder="Enter your name">
+
+
+                <!-- Email -->
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email"
+                name="email" placeholder="Enter your email" required>
+
+
+                <!-- Phone -->
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                minlength="8" maxlength="12"
+                placeholder="Enter phone number">
+
+
+                <!-- Password -->
+
+                <label for="password">Password:</label>
+                <input type="password" id="password"
+                name="password">
+
+
+                <!-- Number -->
+
+                <label for="pages">Pages Needed:</label>
+                <input type="number" id="pages"
+                name="pages" min="1" max="10">
+
+
+                <!-- Favourite colour -->
+
+                <label for="colour">Favourite Colour:</label>
+                <input type="color" id="colour" name="colour">
+
+
+                <!-- Date -->
+
+                <label for="date">Call Date:</label>
+                <input type="date" id="date" name="date">
+
+
+                <!-- File -->
+
+                <label for="brief">Upload Project Brief:</label>
+                <input type="file" id="brief" name="brief">
+
+
+                <!-- Radio buttons -->
+
+                <p>How would you prefer me to contact you?</p>
+
+                <div class="choice">
+
+                    <input type="radio" id="byemail"
+                    name="contact_method" value="Email">
+
+                    <label for="byemail">Email</label>
+
+                    <input type="radio" id="byphone"
+                    name="contact_method" value="Phone">
+
+                    <label for="byphone">Phone</label>
+
+                </div>
+
+
+                <!-- Checkboxes -->
+
+                <div class="choice">
+
+                    <input type="checkbox" id="subscribe"
+                    name="subscribe" value="yes">
+
+                    <label for="subscribe">Subscribe to my updates</label>
+
+                </div>
+
+                <div class="choice">
+
+                    <input type="checkbox" id="terms"
+                    name="terms" value="accepted">
+
+                    <label for="terms">I accept the terms and conditions</label>
+
+                </div>
+
+
+                <!-- Submit button -->
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- PART 5: FOOTER -->
+
+    <footer>
+
+        <p>&copy; 2026 Collins Indeche. All rights reserved.</p>
+
+        <div class="social-links">
+
+            <a href="https://www.facebook.com/"
+            target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/"
+            target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/"
+            target="_blank" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+        </div>
+
+        <p>
+            Create. Learn. Dominate.
+        </p>
+
+        <a href="#home">Back to top</a>
+
+    </footer>
+
+</body>
+
+</html>
